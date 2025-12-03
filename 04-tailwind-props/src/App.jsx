@@ -1,17 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Card from './card'
+import './index.css';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='bg-red-400 text-white p-4 rounded-xl mb-4'>Tailwind CSS</h1>
-      <Card />
-      
+      <div className="h-screen bg-purple-500 text-white flex items-center justify-center text-4xl">
+      Tailwind is working! 🚀
+    </div>
     </>
   )
 }
